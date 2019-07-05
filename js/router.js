@@ -9,13 +9,24 @@ function router(value){
             view_landing.classList.remove("d-none");
         break;
       case "Sign_into_Bruinmail":
-            console.log("Show the forecast UI view");
-            view_forecast.classList.remove("d-none");
+            console.log("sign into bruinmail");
+         view_location_1.classList.remove("d-none");
         break;
-      case "view_settings":
+            
+        case "location_1":
+        console.log("Show the location 1");
+         view_location_1.classList.remove("d-none");
+        break;
+      case "location_2":
    
-            console.log("Show the settings UI view");
-            view_settings.classList.remove("d-none");
+            console.log("Show the location 2");
+            view_location_2.classList.remove("d-none");
+          
+        break;
+            case "view_missed_date_location":
+   
+            console.log("Show the missed date location");
+            view_missed date location.classList.remove("d-none");
           
         break;
       default:
