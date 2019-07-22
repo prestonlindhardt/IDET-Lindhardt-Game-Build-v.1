@@ -14,6 +14,7 @@
     height: 100%;
 }
 
+
 body {background-color: #CAEBF2;}
 #input_btn_Location_1 {background-color: #F7C147;}
 #input_btn_Location_2 {background-color: #F7C147;}
@@ -54,3 +55,4 @@ body {background-color: #CAEBF2;}
     left: calc(50% - 125px);
     z-index: 99;
     width: 250px;
+    

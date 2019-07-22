@@ -8,16 +8,16 @@ function router(value){
             console.log("Show the landing UI view");
             view_landing.classList.remove("d-none");
         break;
-      case "Sign_into_Bruinmail":
+      case "sign_into_bruinmail":
             console.log("sign into bruinmail");
          view_location_1.classList.remove("d-none");
         break;
             
-        case "location_1":
-        console.log("Show the location 1");
+        case "view_location_1":
+        console.log("Show the map for location 1");
          view_location_1.classList.remove("d-none");
         break;
-      case "location_2":
+      case "view_location_2":
    
             console.log("Show the location 2");
             view_location_2.classList.remove("d-none");
@@ -38,8 +38,9 @@ function router(value){
 function hide_all_views(){
     view_landing.classList.add("d-none");
     view_loading.classList.add("d-none");
-    view_forecast.classList.add("d-none");
-    view_settings.classList.add("d-none");
+    view_location_1.classList.add("d-none");
+    view_location_2.classList.add("d-none");
+    view_missed_date_location.classList.add("d-none");
     
    
 }
